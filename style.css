@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h3{
+    color: aquamarine;
+    font-family: 'Lato', sans-serif
+}
+
+
+textarea{
+    display: block;
+}
+
+a{
+    display: block;
+}
+
+h2{
+    color: chartreuse;
+    font-family: 'Lato', sans-serif
+    font-weight: 300;
+    font-size: 50px;
+    /*sử dụng màu*/
+}
+
+h4{
+    color: #ff99ff;
+    /*cách 2: phối màu kiểu hex*/
+}
+
+h5{
+    color: rgb(0, 20, 255);
+    /*cách 2: rgb red greed blue giá trị từ 0~255*/
+}
+
+h6{
+    color: rgba(255, 0, 0, 0.3);
+    /*cách 3: giống rgb nhưng a là alpha thể hiện độ mờ giá trị tối đa là 1*/
+}
+
+h1{
+    border:4px solid #FF3300; /*border là tạo khung trong đó: ..px là độ dầy của khung, solid: định dạng khung*/
+    display: block; /*inline  sẽ làm cho khung chỉ xung quanh chữ*/
+    /*padding là độ rộng của khung*/
+    background-color: #ff99ff;
+
+}
+
+b,em{ /*nếu muốn chỉnh khoảng cách giữa 2 thẻ, chọn 2 thẻ một lúc thì dùng dấu phảy*/
+    margin: 40px;
+}
